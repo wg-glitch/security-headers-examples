@@ -35,7 +35,7 @@
   }];
   // PERMISSIONS POLICY
   response.headers['permissions-policy'] = [{
-    key: 'Permissions-Policy', value: "camera=(), microphone=()"
+    key: 'Permissions-Policy', value: 'camera=(), microphone=()'
   }];
   
   callback(null, response);
